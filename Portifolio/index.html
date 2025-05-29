@@ -6,6 +6,18 @@
     <title>Portifolio JV</title>
     <link rel="stylesheet" href="" type="image/x-icon">
     <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'pt',
+                includedLanguages: 'pt,en,es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+  }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -14,11 +26,14 @@
         <a href="" class="logo">Portfolio JV</a>
 
         <div class="nav">
-            <a href="#home">HOME</a>
-            <a href="#service">Service</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">contact</a>
+            <a href="#home">Home</a>
+            <a href="#services">Habilidades</a>
+            <a href="#portfolio">Projetos</a>
+            <a href="#experience">Experiência</a>
+            <a href="#contact">Contato</a>
+            <button id="dark-mode-toggle" class="dark-mode-btn">🌙</button>
         </div>
+        
 
     </header>
 
@@ -83,7 +98,7 @@
     </section>
 
     <section class="portfolio" id="portfolio">
-    <h2>Latest <span>Projects</span></h2>
+    <h2><span>Projetos</span> Realizados</h2>
 
     <div class="portfolio-container">
         <div class="portfolio-box">
@@ -115,8 +130,24 @@
     </div>
     </section>
 
+    <section class="experience" id="experience">
+  <h2>Experiência <span>Profissional</span></h2>
+
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>Assistente Técnico de T.I</h3>
+                <h4>Baldini Alimentos – Março de 2024 até o momento</h4>
+                <ul>
+                    <li>Auxílio na administração de bancos de dados (backup, restauração, otimização de desempenho e resolução de problemas).</li>
+                    <li>Suporte na administração e manutenção de redes (configuração de roteadores, switches e firewalls).</li>
+                    <li>Participação na manutenção preventiva e corretiva de sistemas, redes e servidores (atualizações de software e hardware).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section class="contact" id="contact">
-        <h2>Contact <span>Me!</span></h2>
+        <h2>Entre em <span>Contato!</span></h2>
 
         <form action="">
             <div class="input-box">
